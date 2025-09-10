@@ -73,7 +73,7 @@
         </template>
           <h4 x-show="!$store.cart.items.length" style="margin-top: 1rem;">Cart is Empty</h4>
           <h4 x-show="$store.cart.items.length"> Total : <span x-text="rupiah($store.cart.total)"></span></h4></h4>
-<!--           <div class="form-container">
+          <div class="form-container">
             <form action="" id="checkoutForm" x-show="$store.cart.items.length" >
               <input type="hidden" name="items" x-model="JSON.stringify($store.cart.items)">
               <input type="hidden" name="total" x-model="$store.cart.total">
@@ -90,9 +90,9 @@
                 <span>phone</span>
                 <input type="number" name="phone" id="phone" autocomplete="off">
               </label>
-              <button class="checkout-button disabled" type="submit" id="checkout-button" value="checkout">Checkout</button>
+<!--               <button class="checkout-button disabled" type="submit" id="checkout-button" value="checkout">Checkout</button> -->
             </form>
-          </div> -->
+          </div>
       </div>
       <!-- Shopping Cart End -->
     </nav>
