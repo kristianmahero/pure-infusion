@@ -5,7 +5,7 @@ document.addEventListener("alpine:init", () => {
         id: 1,
         name: "Kombucha",
         img: "kombucha.jpg",
-        price: 20000,
+        price: 25000,
       },
       {
         id: 2,
